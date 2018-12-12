@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+      
+  avangers:
+    image: marvel/avangers
+    restart: always
+    build:
+      context: ./services/avangers
+    volumes:
+      - ./services/avangers:/app
+      - /app/node_modules
+    ports:
+      - 8009:8009
+    networks:
+      - backend
+      
+networks:
+  backend:
+    driver: bridge
+  frontend:
+    driver: bridge
