@@ -14,7 +14,7 @@ server.route({
     method:'GET',
     path:'/',
     handler:function(request,h) {
-        return 'Hellow World';
+        return 'Hellow World! Finalmente consegui terminar esse tutorial!';
     }
 });
 
