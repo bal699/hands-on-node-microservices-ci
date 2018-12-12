@@ -1,0 +1,17 @@
+{
+  "name": "avangers",
+  "version": "1.0.0",
+  "description": "Avangers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "hapi": "^17.8.1",
+    "jest": "^23.6.0"
+  }
+}
