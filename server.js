@@ -6,7 +6,7 @@ const Hapi = require('hapi');
 // Create a server with a host and port
 const server = Hapi.server({
     host:'0.0.0.0',
-    port:8009
+    port: process.env.PORT || 8009
 });
 
 // Add the route
